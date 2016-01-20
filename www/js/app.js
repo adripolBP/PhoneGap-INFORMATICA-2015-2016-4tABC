@@ -31,39 +31,39 @@ window.addEventListener('load', function() {
     */
     $JSView.declareView({ 
         viewA: {
-            url: '/viewA',
-            template: 'views/viewA.html',
-            controller: 'viewA'
+            url: '/inici',
+            template: 'views/inici.html',
+            controller: 'inici'
         },
         viewB: {
-            url: '/viewB',
-            template: 'views/viewB.html',
-            controller: 'viewB'
+            url: '/dilluns',
+            template: 'views/dilluns.html',
+            controller: 'dilluns'
         },
         viewC: {
-            url: '/viewC',
-            template: 'views/viewC.html',
-            controller: 'viewC'
+            url: '/dimarts',
+            template: 'views/dimarts.html',
+            controller: 'dimarts'
         },
         viewD: {
-            url: '/viewD',
-            template: 'views/viewD.html',
-            controller: 'viewD'
+            url: '/dimecres',
+            template: 'views/dimecres.html',
+            controller: 'dimecres'
         },
         viewE: {
-            url: '/viewE',
-            template: 'views/viewE.html',
-            controller: 'viewE'
+            url: '/dijous',
+            template: 'views/dijous.html',
+            controller: 'dijous'
         },
         viewF: {
-            url: '/viewF',
-            template: 'views/viewF.html',
-            controller: 'viewF'
+            url: '/divendres',
+            template: 'views/divendres.html',
+            controller: 'divendres'
         },
         viewG: {
-            url: '/viewG',
-            template: 'views/viewG.html',
-            controller: 'viewG'
+            url: '/diumenge',
+            template: 'views/diumenge.html',
+            controller: 'diumenge'
         }
     });
      
@@ -78,6 +78,6 @@ window.addEventListener('load', function() {
      
     /*Asign view start*/
     $JSView
-        .initView('Dilluns');
+        .initView('inici');
  
 }, false);
