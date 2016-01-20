@@ -78,6 +78,6 @@ window.addEventListener('load', function() {
      
     /*Asign view start*/
     $JSView
-        .initView('viewA');
+        .initView('Dilluns');
  
 }, false);
